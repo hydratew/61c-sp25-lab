@@ -28,7 +28,8 @@ int main() {
 
   free(student1_ptr);
 
-  Student* student2_ptr = malloc(sizeof(Student));
+  //Student* student2_ptr = malloc(sizeof(Student));
+  Student* student2_ptr = NULL;
 
   create_student_2(&student2_ptr, 6);
 
